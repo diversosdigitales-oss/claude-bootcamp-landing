@@ -426,6 +426,55 @@
             font-weight: 700;
         }
 
+        /* ── TESTIMONIALS ── */
+        .testimonials {
+            background: var(--light-gray);
+        }
+
+        .testimonials h2 {
+            text-align: center;
+            margin-bottom: 48px;
+        }
+
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 24px;
+        }
+
+        .review-card {
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 28px;
+            border: 1px solid #e8eaf2;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .review-stars {
+            color: var(--teal);
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+
+        .review-text {
+            font-size: 15px;
+            color: #444;
+            line-height: 1.75;
+            flex: 1;
+            margin: 0;
+        }
+
+        .review-name {
+            font-family: 'Roboto Mono', monospace;
+            font-size: 13px;
+            font-weight: 700;
+            color: var(--dark-blue);
+            border-top: 1px solid #eef0f6;
+            padding-top: 14px;
+        }
+
         /* ── FAQ ── */
         .faq {
             background: #ffffff;
@@ -706,6 +755,64 @@
                 <li>Acceso de por vida a todo el contenido</li>
                 <li>Actualizaciones futuras incluidas</li>
             </ul>
+        </div>
+    </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testimonials">
+    <div class="container" style="max-width: 960px;">
+        <h2>Lo Que Dicen Nuestros Estudiantes</h2>
+        <div class="reviews-grid">
+
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"En el módulo 2 ya tenía mi primer workflow corriendo. Automaticé los reportes semanales que me tomaban tres horas cada lunes. Ahora los genero en cinco minutos."</p>
+                <div class="review-name">Camila Rodríguez</div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Llevaba meses buscando una solución sin tener que contratar a un programador. Este bootcamp me dio exactamente eso. Ya automaticé mis campañas de email y los análisis de ventas."</p>
+                <div class="review-name">Andrés Morales</div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Soy directora de marketing y pensé que esto era solo para personas técnicas. Me equivoqué. En dos semanas tenía tres procesos automatizados funcionando solos."</p>
+                <div class="review-name">Valentina Ospina</div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"El ROI fue inmediato. Recuperé fácil 12 horas a la semana en la primera semana. Las habilidades prearmadas son un regalo, las usé desde el primer día."</p>
+                <div class="review-name">Diego Fuentes</div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Lo que más me gustó es que todo es con ejemplos reales. Nada de teoría vacía. Cada lección la podía aplicar directamente a mi negocio esa misma tarde."</p>
+                <div class="review-name">Luciana Herrera</div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Tengo una agencia pequeña y ahora ofrezco automatización como servicio adicional a mis clientes. Este bootcamp me abrió una línea de ingreso que no tenía."</p>
+                <div class="review-name">Mateo Castillo</div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"Probé ChatGPT antes y no entendía cómo aplicarlo al trabajo real. Con Claude CoWork fue completamente diferente. Es como tener un asistente que de verdad entiende tus procesos."</p>
+                <div class="review-name">Isabella Vargas</div>
+            </div>
+
+            <div class="review-card">
+                <div class="review-stars">★★★★★</div>
+                <p class="review-text">"$49 es lo mejor que he invertido en años. Ya en la primera semana recuperé ese dinero en tiempo ahorrado. Recomendado al 100% para cualquier gerente o emprendedor."</p>
+                <div class="review-name">Sebastián Ríos</div>
+            </div>
+
         </div>
     </div>
 </section>
